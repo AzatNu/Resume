@@ -1,0 +1,174 @@
+.countainer {
+    max-width: 850px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 15px;
+    margin: auto;
+}
+
+.mainphoto {
+    width: 300px;
+    border-radius: 5px;
+    box-shadow: 5px 3px 20px rgba(0, 0, 0, 0.6);
+}
+
+.head {
+    border: 1px;
+    border-radius: 4px;
+    background-color: rgb(233, 235, 231);
+    padding: 20px 20px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+
+}
+
+.card1 {
+    border: 1px;
+    border-radius: 4px;
+    background-color: rgb(137, 202, 202);
+    padding: 15px 20px;
+    margin-bottom: 15px;
+
+
+}
+
+.card2 {
+    border: 1px;
+    border-radius: 4px;
+    background-color: rgb(209, 156, 219);
+    padding: 15px 20px;
+    margin-bottom: 15px;
+
+}
+
+.form-group {
+    border: 1px;
+    border-radius: 4px;
+    background-color: rgba(184, 209, 209, 0.733);
+    padding: 15px 20px;
+    margin-bottom: 15px;
+}
+
+
+
+.tableexp {
+    width: 100%;
+
+}
+
+.tableexp td {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.tableexp td:nth-child(2),
+.tableexp td:nth-child(3) {
+    color: rgb(210, 208, 231);
+}
+
+.tableexp td:hover {
+    background-color: rgb(230, 243, 243);
+}
+
+.navbar {
+    background: rgb(128, 51, 41);
+    padding: 10px 10px;
+    margin-bottom: 10px;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    padding: 0 10px;
+    padding-left: 270px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: blanchedalmond;
+}
+
+.navbar ul li {
+    margin-right: 30px;
+}
+
+.navbar ul li:hover {
+    background-color: rgb(16, 17, 17);
+
+}
+
+.form-row {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.form-row .form-group {
+    margin-right: 20px;
+    width: 50%;
+}
+
+
+
+form h2 {
+    text-align: center;
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    color: rgb(31, 30, 29);
+}
+
+.form-group input {
+    width: 100%;
+    box-sizing: none;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid gray;
+    color: rgba(255, 72, 0, 0.788);
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+
+
+}
+
+.form-row .form-group:last-child {
+    margin-right: 0%;
+}
+
+.info {
+    display: flex;
+}
+
+.info img {
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.form-group .butt {
+    border: 2px solid rgb(238, 241, 241);
+    border-radius: 5px;
+}
+
+.form-group .butt:hover {
+    background-color: rgb(229, 255, 0);
+}
+@media (max-width: 650px){
+    .info {display: block;
+    text-align: center;
+}
+}
+@media (max-width: 650px){
+    .cards {text-align: center;
+    font-size: 1.5rem;
+
+}
+.head {margin-top: 1px;}
+}
